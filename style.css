@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+}
+
+.main{
+    text-align: center;
+    margin: 3rem;
+}
+.main .login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    border: 1px solid #dbdbdb;/*348X360*/
+    width: 34.8rem;
+    height: 37rem;
+}
+.main .login img {
+    height: 5rem;
+    margin: 3.2rem 8rem 3.7rem;
+}
+.main .login input{
+    width: 26.6rem;
+    height: 3.6rem;
+    padding: 0.9rem 0rem 0.7rem 0.8rem;
+    margin-bottom: 0.8rem;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 14px;
+    outline: none;
+}
+input::placeholder{
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main .login button{
+    width: 26.8rem;
+    height: 3rem;
+    padding: 0.5rem 0.9rem;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: #A9dfff;/*0095f6*/
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1.8rem;
+}
+.main .login a{
+    margin-top:105rem;
+}
+.main .login .ou{
+    color: #8e8e8e;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+.main .login .ou::before{
+    content: '________________________';
+    padding: 10px;
+    position: relative;
+    top: -5px;
+    color: #DBDBDB;
+}
+.main .login .ou::after{
+    content: '________________________';
+    padding: 10px;
+    position: relative;
+    top: -5px;
+    color: #DBDBDB;
+}
+.main .login .link1{
+    margin-bottom: 2rem;
+}
+.main .login .link1 i{
+   color: #385185;
+   font-size: 1.5rem;
+   font-weight: 600;
+   margin-right: 0.8rem;
+}
+.main .login .link1 a{
+    color: #385185;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+ }
+ .main .login .link2 a{
+     text-decoration: none;
+     color: #00376b;
+     font-size: 1.2rem;
+     font-weight: 400;
+ }
+.main .cadastrar{
+    color: #262626;
+    font-size: 1.4rem;
+    font-weight: 400;
+    border: 1px solid #dbdbdb;
+    margin-top: 1rem;
+    padding: 1.5rem;
+}
+.main .cadastrar a{
+    text-decoration: none;
+    color: #0095f6;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.main .app span{
+    display: flex;
+    justify-content: center;
+    color: #262626;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.main .app img{
+    width: 13.6rem;
+}
