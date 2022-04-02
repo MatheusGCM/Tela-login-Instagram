@@ -5,13 +5,13 @@
 }
 
 html{
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 62.5%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fafafa;
 }
 .box{
     display: flex;
@@ -30,6 +30,7 @@ html{
     border: 1px solid #dbdbdb;/*348X360*/
     width: 34.8rem;
     height: 37rem;
+    background-color: #fff;
 }
 .main .login img {
     height: 5rem;
@@ -114,6 +115,7 @@ input::placeholder{
     border: 1px solid #dbdbdb;
     margin-top: 1rem;
     padding: 1.5rem;
+    background-color: #fff;
 }
 .main .cadastrar a{
     text-decoration: none;
@@ -130,6 +132,28 @@ input::placeholder{
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+.main .app a{
+    text-decoration: none;
+}
 .main .app img{
     width: 13.6rem;
+}
+
+@media (max-width: 875px) {
+    .celular{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 450px){
+    .main .login{
+        border: none;
+        background-color: #fafafa;
+    }
+    .main .cadastrar{
+        border: none;
+        background-color: #fafafa;
+    }
 }
